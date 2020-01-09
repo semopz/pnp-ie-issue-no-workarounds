@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pnp-ie-pristine-client-side-solution",
+    "id": "51867c9d-29a9-4f61-b023-e1214f1d1934",
+    "version": "1.1.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/pnp-ie-pristine.sppkg"
+  }
+}

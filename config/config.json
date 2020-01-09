@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pn-p-ie-11-issue-without-workarounds-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPIe11IssueWithoutWorkarounds/PnPIe11IssueWithoutWorkaroundsWebPart.js",
+          "manifest": "./src/webparts/pnPIe11IssueWithoutWorkarounds/PnPIe11IssueWithoutWorkaroundsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PnPIe11IssueWithoutWorkaroundsWebPartStrings": "lib/webparts/pnPIe11IssueWithoutWorkarounds/loc/{locale}.js"
+  }
+}
